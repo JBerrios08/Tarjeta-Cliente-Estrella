@@ -1,177 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Visa Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Visa Platinum</title>
 </head>
 <body>
-<!-- Navbar -->
-<header class="navbar">
-  <div class="logo">Visa</div>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Integrations</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <button class="btn">Apply Now</button>
-</header>
-
-<!-- Hero Section -->
-<section class="hero reveal">
-  <div class="hero-text">
-    <h1>Unlock the Power of Platinum</h1>
-    <p>Experience elite financial freedom with the Visa Platinum Card — the ultimate blend of style, security, and smart spending.</p>
-    <button class="btn">Apply Now</button>
-    <div class="customer-images">
-      <img src="img/customer1.jpg">
-      <img src="img/customer2.jpg">
-      <img src="img/customer3.jpg">
-      <img src="img/customer4.jpg">
-      <img src="img/customer5.jpg">
+  <header class="navbar navbar-expand-lg py-4">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Visa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#integrations">Integrations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn btn-primary ms-lg-4">Apply Now</button>
+      </div>
     </div>
-  </div>
-  <img src="img/card.png" alt="Visa Platinum Card" class="hero-image" id="card" />
-</section>
+  </header>
 
-<!-- Trusted Businesses -->
-<section class="trusted reveal">
-  <h2>Trusted by 1,500+ Leading Businesses</h2>
-  <p>Thousands of professionals and companies choose Visa Platinum for its global acceptance and unmatched rewards.</p>
+  <main>
+    <section class="hero-section position-relative overflow-hidden">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <p class="eyebrow">Visa Platinum</p>
+            <h1 class="display-4 fw-semibold">Unlock the power of platinum spending.</h1>
+            <p class="lead">Experience elite financial freedom with the Visa Platinum Card — crafted for everyday confidence, global access, and premium rewards.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <button class="btn btn-primary">Apply Now</button>
+              <button class="btn btn-outline-light">Learn More</button>
+            </div>
+            <div class="avatar-stack mt-4">
+              <img src="img/customer1.jpg" alt="Customer">
+              <img src="img/customer2.jpg" alt="Customer">
+              <img src="img/customer3.jpg" alt="Customer">
+              <img src="img/customer4.jpg" alt="Customer">
+              <img src="img/customer5.jpg" alt="Customer">
+              <span class="ms-3 small">Trusted by 1,500+ customers</span>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center position-relative">
+            <div class="card-glow"></div>
+            <img src="img/card.png" alt="Visa Platinum Card" class="hero-card" id="card">
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="logos">
-    <div class="logo_items">
-      <img src="img/logo1.png">
-      <img src="img/logo2.png">
-      <img src="img/logo3.png">
-      <img src="img/logo4.png">
-      <img src="img/logo5.png">
-      <img src="img/logo6.png">
-      <img src="img/logo1.png">
-      <img src="img/logo2.png">
-      <img src="img/logo3.png">
-      <img src="img/logo4.png">
-      <img src="img/logo5.png">
-      <img src="img/logo6.png">
-    </div>
-    <div class="logo_items">
-      <img src="img/logo1.png">
-      <img src="img/logo2.png">
-      <img src="img/logo3.png">
-      <img src="img/logo4.png">
-      <img src="img/logo5.png">
-      <img src="img/logo6.png">
-      <img src="img/logo1.png">
-      <img src="img/logo2.png">
-      <img src="img/logo3.png">
-      <img src="img/logo4.png">
-      <img src="img/logo5.png">
-      <img src="img/logo6.png">
-    </div>
-  </div>
+    <section class="section-muted">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="section-title">Trusted by leading businesses</h2>
+            <p class="section-subtitle">Thousands of professionals and teams choose Visa Platinum for its global acceptance and unmatched rewards.</p>
+          </div>
+        </div>
+        <div class="row g-4 align-items-center justify-content-center logo-grid mt-4">
+          <div class="col-4 col-md-2"><img src="img/logo1.png" alt="Logo"></div>
+          <div class="col-4 col-md-2"><img src="img/logo2.png" alt="Logo"></div>
+          <div class="col-4 col-md-2"><img src="img/logo3.png" alt="Logo"></div>
+          <div class="col-4 col-md-2"><img src="img/logo4.png" alt="Logo"></div>
+          <div class="col-4 col-md-2"><img src="img/logo5.png" alt="Logo"></div>
+          <div class="col-4 col-md-2"><img src="img/logo6.png" alt="Logo"></div>
+        </div>
+      </div>
+    </section>
 
-  <button class="btn">Apply Now</button>
-</section>
+    <section class="section" id="features">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-7 mx-auto">
+            <h2 class="section-title">Why choose Visa Platinum?</h2>
+            <p class="section-subtitle">Powerful features designed for modern spending, security, and total control.</p>
+          </div>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-lg-4">
+            <div class="feature-card h-100">
+              <h3>Global Access</h3>
+              <p>Shop, travel, and pay anywhere with Visa’s trusted worldwide network.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feature-card h-100">
+              <h3>Smart Limits</h3>
+              <p>Set daily, weekly, or monthly spend caps to stay ahead of your goals.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feature-card h-100">
+              <h3>24/7 Security</h3>
+              <p>Real-time monitoring and instant alerts keep every transaction protected.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Features -->
-<section class="features reveal">
-  <h2>Why Choose Visa Platinum?</h2>
-  <p>Take control of your finances with powerful features built for the modern spender.</p>
+    <section class="section-muted" id="integrations">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5">
+            <h2 class="section-title">Connect with your favorite apps</h2>
+            <p class="section-subtitle">Sync Visa Platinum with the tools you already love for seamless expense tracking.</p>
+            <button class="btn btn-primary">Start Integrating</button>
+          </div>
+          <div class="col-lg-7">
+            <div class="integration-grid">
+              <img src="img/logo1.png" alt="Logo">
+              <img src="img/logo2.png" alt="Logo">
+              <img src="img/logo3.png" alt="Logo">
+              <img src="img/logo4.png" alt="Logo">
+              <img src="img/logo5.png" alt="Logo">
+              <img src="img/logo6.png" alt="Logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="features-grid">
-    <div class="feature-box large">
-      <h3>Global Access</h3>
-      <p>Take control of your finances with powerful features built for the modern spender.</p>
-    </div>
-    <div class="feature-box small">
-      <img src="img/icon1.png">
-      <h3>Friends and Family</h3>
-      <p>Take control of your finances with powerful features built for the modern spender.</p>
-    </div>
-    <div class="feature-box small">
-      <img src="img/icon2.png">
-      <h3>Interrogation</h3>
-      <p>Take control of your finances with powerful features built for the modern spender.</p>
-    </div>
-    <div class="feature-box large">
-      <img src="img/icon3.png">
-      <h3>24/7 Security</h3>
-      <p>Take control of your finances with powerful features built for the modern spender.</p>
-    </div> 
-  </div>
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-7 mx-auto">
+            <h2 class="section-title">Built for a better experience</h2>
+            <p class="section-subtitle">Every touchpoint is designed to be fast, intuitive, and empowering.</p>
+          </div>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-md-6">
+            <div class="experience-card h-100">
+              <h3>Customizable Limits</h3>
+              <p>Set daily, weekly, or monthly spending limits per user or category.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="experience-card h-100">
+              <h3>Real-Time Insights</h3>
+              <p>Track every transaction and manage budgets from any device.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="experience-card h-100">
+              <h3>Multi-User Access</h3>
+              <p>Give controlled access to teams and family without compromising security.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="experience-card h-100">
+              <h3>Instant Notifications</h3>
+              <p>Get instant alerts for every transaction, keeping you in total control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <button class="btn">Apply Now</button>
-</section>
+    <section class="section-muted" id="contact">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <h2 class="section-title">Ready to elevate your spending?</h2>
+            <p class="section-subtitle">Join thousands of cardholders enjoying premium benefits and security.</p>
+          </div>
+          <div class="col-lg-5 text-lg-end">
+            <button class="btn btn-primary">Apply Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<!-- App Integrations -->
-<section class="integration reveal">
-  <h2>Connect With Your Favorite Apps</h2>
-  <p>Sync Visa Platinum with platforms like Canva, QuickBooks, and more for seamless expense tracking.</p>
-  <button class="btn">Apply Now</button>
-
-  <div class="parallax-container">
-    <img src="img/logo1.png" class="parallax logo-1">
-    <img src="img/logo2.png" class="parallax logo-2">
-    <img src="img/logo3.png" class="parallax logo-3">
-    <img src="img/logo4.png" class="parallax logo-4">
-    <img src="img/logo5.png" class="parallax logo-5">
-    <img src="img/logo6.png" class="parallax logo-6">
-  </div>
-</section>
-
-<!-- Customer Experience -->
-<section class="customer-experience reveal">
-  <h2>Built for a Better Experience</h2>
-  <p>We've designed every touchpoint to be intuitive, fast, and empowering for cardholders.</p>
-
-  <div class="experience-grid">
-    <div class="experience-card">
-      <h3>Customizable Limits</h3>
-      <p>Set daily, weekly, or monthly spending limits per user or category with ease.</p>
-    </div>
-    <div class="experience-card">
-      <h3>Real-Time Insights</h3>
-      <p>Track every transaction and get insights to better manage finances smartly.</p>
-    </div>
-    <div class="experience-card">
-      <h3>Multi-User Access</h3>
-      <p>Allow controlled access to your account for teams or family without compromising security.</p>
-    </div>
-    <div class="experience-card">
-      <h3>Instant Notifications</h3>
-      <p>Get instant alerts for every transaction, ensuring full transparency and control.</p>
-    </div>
-  </div>
-
-  <button class="btn">Apply Now</button>
-</section>
-
-<!-- Virtual Cards -->
-<section class="virtual-cards reveal">
-  <div class="virtual-text">
-    <h2>Unlock the Power of Platinum</h2>
-    <p>Experience elite financial freedom with the Visa Platinum Card — the ultimate blend of style, security, and smart spending.</p>
-    <button class="btn">Apply Now</button>
-  </div>
-</section>
-
-<!-- Powered by Stripe -->
-<section class="powered-by reveal">
-  <h2>Backed by Stripe Technology</h2>
-  <p>Secure, scalable, and trusted by millions. Visa Platinum is built on Stripe's world-class infrastructure.</p>
-  <img src="img/reader.webp" alt="Stripe Terminal" />
-</section>
- 
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
