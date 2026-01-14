@@ -1,11 +1,11 @@
 :root {
-  --primary: #b67b86;
-  --primary-dark: #9f646f;
+  --primary: #ffab00;
+  --primary-dark: #ffab00;
   --accent: #afbccf;
-  --ink: #f8f8f8;
+  --ink: #ffffff;
   --text-dark: #1f1f1f;
-  --bg: linear-gradient(135deg, #6d7f95, #c57c7f 60%, #d9acb1 100%);
-  --surface: rgba(255, 255, 255, 0.12);
+  --bg: #1a2a39;
+  --surface: rgba(0, 0, 0, 0.87);
   --shadow: 0 24px 60px rgba(15, 23, 42, 0.25);
 }
 
@@ -31,13 +31,13 @@ body {
 }
 
 .navbar .btn-primary {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
 
 .navbar .btn-primary:hover {
-  background: var(--primary-dark);
-  border-color: var(--primary-dark);
+  background: var(--primary-dark) !important;
+  border-color: var(--primary-dark) !important;
 }
 
 .navbar-toggler {
@@ -69,14 +69,14 @@ body {
 }
 
 .btn-primary {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
   box-shadow: 0 16px 30px rgba(182, 123, 134, 0.4);
 }
 
 .btn-primary:hover {
-  background: var(--primary-dark);
-  border-color: var(--primary-dark);
+  background: var(--primary-dark) !important;
+  border-color: var(--primary-dark) !important;
 }
 
 .btn-outline-light {
@@ -130,7 +130,7 @@ body {
 }
 
 .section-muted {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.87);
   backdrop-filter: blur(8px);
 }
 
